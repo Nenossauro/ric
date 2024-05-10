@@ -1,0 +1,107 @@
+
+body{
+    padding: 100px;
+    background-color: black;
+    font-size: 20px;
+}
+
+nav{
+    color: yellow;
+    
+}
+
+hr{
+    border-color: yellow;
+}
+#aviso{
+    width: 100%;
+    font-size: 30px;
+    
+    text-decoration: underline;
+    text-align: center;
+}
+#governo{
+
+    width: 100%;
+    color:white;
+}
+b{
+    background-color: red;
+    color: black;
+}
+a{
+    margin-right: 25px;
+    color:white;
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    color: red;
+}
+
+article{
+    color: white;
+    display: flex;
+}
+
+#lad-esq{
+    
+}
+
+#lad-dir{
+    width: 20%;
+}
+
+#ouça{
+    font-size:30px;
+}
+
+section{
+    display: flex;
+}
+
+.painel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagem{
+    background-color: grey;
+    width: 195px;
+    height: 236px;
+}
+
+.pan-image{
+    margin-left: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.taxado {
+    text-decoration: line-through;
+}
+
+.hora{
+    color: rgb(64, 255, 64); 
+    font-family: 'Orbitron';
+}
+
+.red{
+    color: red;
+}
+
+.white{
+    color: white;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.magenta{
+    color: magenta;
+}
+
