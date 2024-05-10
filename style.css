@@ -1,79 +1,86 @@
-
-body{
+body {
     padding: 100px;
     background-color: black;
     font-size: 20px;
 }
 
-nav{
+nav {
     color: yellow;
-    
+
 }
 
-hr{
+hr {
     border-color: yellow;
 }
-#aviso{
+
+#aviso {
     width: 100%;
     font-size: 30px;
-    
+
     text-decoration: underline;
     text-align: center;
 }
-#governo{
+
+#governo {
 
     width: 100%;
-    color:white;
+    color: white;
 }
-b{
+
+b {
     background-color: red;
     color: black;
 }
-a{
+
+a {
     margin-right: 25px;
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
-p{
+p {
     text-align: center;
     color: red;
 }
 
-article{
+article {
     color: white;
     display: flex;
 }
 
-#lad-esq{
-    
-}
+#lad-esq {}
 
-#lad-dir{
+#lad-dir {
     width: 20%;
 }
 
-#ouça{
-    font-size:30px;
+#ouça {
+    font-size: 30px;
 }
 
-section{
+#mecenas {
+    background-color: grey;
+    width: 195px;
+    height: 288px;
+}
+
+section {
     display: flex;
 }
 
-.painel{
+.painel {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.imagem{
+.imagem {
     background-color: grey;
     width: 195px;
     height: 236px;
 }
 
-.pan-image{
+.pan-image {
     margin-left: 150px;
     width: 200px;
     display: flex;
@@ -84,24 +91,28 @@ section{
     text-decoration: line-through;
 }
 
-.hora{
-    color: rgb(64, 255, 64); 
+.hora {
+    color: rgb(64, 255, 64);
     font-family: 'Orbitron';
 }
 
-.red{
+.red {
     color: red;
 }
 
-.white{
+.white {
     color: white;
 }
 
-.yellow{
-    color:yellow;
+.yellow {
+    color: yellow;
 }
 
-.magenta{
+.magenta {
     color: magenta;
 }
 
+#voltartopo{
+    margin: 10%;
+    color: white;
+}
