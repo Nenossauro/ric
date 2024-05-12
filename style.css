@@ -1,4 +1,6 @@
 body {
+    border-style: solid;
+    border-color: yellow;
     padding: 100px;
     background-color: black;
     font-size: 20px;
@@ -51,7 +53,7 @@ article {
 #lad-esq {}
 
 #lad-dir {
-    width: 20%;
+    width: 15%;
 }
 
 #ouça {
@@ -59,7 +61,6 @@ article {
 }
 
 #mecenas {
-    background-color: grey;
     width: 195px;
     height: 288px;
 }
@@ -74,8 +75,21 @@ section {
     flex-wrap: wrap;
 }
 
+#logos{
+    border: 2px solid black;
+    border-radius: 40px;
+    transition: ease-out 0.5s;
+
+}
+
+#logos:hover{
+    cursor: wait;
+    transition: ease-out 0.5s;
+    height: 300px;
+    width: 300px;
+}
+
 .imagem {
-    background-color: grey;
     width: 195px;
     height: 236px;
 }
