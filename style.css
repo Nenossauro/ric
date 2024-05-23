@@ -4,9 +4,13 @@ body {
     padding: 100px;
     background-color: black;
     font-size: 20px;
+    max-width: 2048px;
 }
 
+
+
 nav {
+    display: flex;
     color: yellow;
 
 }
@@ -15,16 +19,61 @@ hr {
     border-color: yellow;
 }
 
+
+header h3{
+    text-align: center;
+    color: red;
+    padding-bottom: 50px;
+}
+
+#main-eps{
+    color: white;
+}
+
+#section-eps{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section-eps div{
+    display: block;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#section-eps p{
+    margin-right: 150px;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    border: 2px solid wheat;
+}
+
+ul a{
+    background-color: blue;
+    text-decoration: underline;
+}
+
+li{
+    padding: 10px;
+}
+
+#parsas{
+    margin: auto;
+    color: yellow;
+    padding: 50px;
+}
+
 #aviso {
     width: 100%;
     font-size: 30px;
-
     text-decoration: underline;
     text-align: center;
 }
 
 #governo {
-
     width: 100%;
     color: white;
 }
@@ -46,17 +95,27 @@ p {
 }
 
 article {
+    width: 100%;
     color: white;
     display: flex;
 }
 
-#lad-esq {}
-
-#lad-dir {
-    width: 15%;
+#left-side{
+    display: flex;
+    justify-content: space-between;
 }
 
-#ouça {
+#membros{
+    padding-top: 50px;
+}
+
+#right-site{
+    display: flex;
+    justify-content:space-between;
+    width: 25%;
+}
+
+#ouça-main {
     font-size: 30px;
 }
 
@@ -127,6 +186,5 @@ section {
 }
 
 #voltartopo{
-    margin: 10%;
-    color: white;
+    color: yellow;
 }
