@@ -3,3 +3,6 @@ Domingo dia das mães:
 -Fotos arredondadas 
 -Efeito de ampliação quando o mouse passa por cima das Fotos
 -Mouse muda o estilo quando passa por cima das fotos
+    23/05/2024:
+-Adicionado segunda pagina para colocar os eps
+-Ficha tecnica do episódio na parte de baixo do episódio
